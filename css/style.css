@@ -212,7 +212,85 @@ header{
 	margin-left: -45px;
 }
 
+.bottom-words{
+	background: url('../img/parallax2.jpg')50% 100%  no-repeat;
+	width: 100%;
+	margin: 0;
+	height: 270px;
+	position: relative !important;
+}
 
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.words{
+	font-weight: normal;
+	font-size: 25px;
+	font-family: 'gotham_extralightregular';
+	text-align: center;
+	color: #fff;
+}
+
+.words p {
+	padding-top: 3em;
+}
+
+.footer{
+	background: #202020;
+	height: auto;
+	padding-bottom: 3em;
+}
+
+.footer h3{
+	text-align: center;
+	font-family: 'gotham_extralightregular';
+	color: #ebebeb;
+	padding-top: 12%;
+}
+
+.footer li a{
+	font-family: 'gotham_extralightregular';
+	color: #ebebeb;
+}
+
+.footer li{
+	list-style: none;
+	margin-top: 0.7em;
+}
+
+.footer ul{
+	width: 100px;
+	margin-left: -1em;
+}
+
+.footer p {
+	font-family: 'gotham_extralightregular';
+	color: #ebebeb;
+	text-align: center;
+}
+
+.menus-footer{
+	padding-top: 9%;
+	width: 120px;
+	margin: auto;
+}
+
+.signature{
+	
+	background: #202020;
+	width: 100%;
+}
+
+.signature p{
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	width: 180px;
+	font-family: 'gotham_extralightregular';
+	color: #ebebeb;
+
+}
 
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
