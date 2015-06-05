@@ -184,9 +184,23 @@ header{
 .container-about{
 	background: #ff8f00;
 	width: 80%;
-	font-size: 15pt;
+	font-size: 16px;
 	line-height: 30px;
+	color: #fff;
+	font-family: 'gotham_bookregular';
 	padding: 2em;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	margin-left: 20px;
+
+}
+
+.container-about h2{
+	color: #fff;
+	font-family: 'gotham_extralightregular';
+	font-size: 22px;
+	margin-top: 0;
 }
 
 
