@@ -182,7 +182,7 @@ header{
 }
 
 .container-about{
-	background: #ff789F;
+	background: #ff8f00;
 	width: 80%;
 	font-size: 16px;
 	line-height: 30px;
@@ -201,6 +201,15 @@ header{
 	font-family: 'gotham_extralightregular';
 	font-size: 22px;
 	margin-top: 0;
+}
+
+.panah{
+	background: url('../img/arrow.png');
+	width: 27px;
+	height: 31px;
+	position: absolute;
+	z-index: 0;
+	margin-left: -45px;
 }
 
 
