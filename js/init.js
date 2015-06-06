@@ -1,4 +1,4 @@
-$(document).ready(function(){
+/*$(document).ready(function(){
    // cache the window object
    $window = $(window);
  
@@ -18,7 +18,9 @@ $(document).ready(function(){
         $scroll.css({ backgroundPosition: coords });   
       }); // end window scroll
    });  // end section function
-}); // close out script
+}); // close out script*/
 
+$('.home').parallax({imageSrc: 'img/header.jpg'});
+$('.bottom-words').parallax({imageSrc: 'img/header.jpg'});
 /* Create HTML5 element for IE */
 document.createElement("section");
