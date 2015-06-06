@@ -1,0 +1,2 @@
+col-centered --> Solution for IE 8
+http://www.minimit.com/articles/solutions-tutorials/bootstrap-3-responsive-centered-columns
