@@ -181,7 +181,7 @@ header{
 
 }
 
-.container-about{
+.aboutmeWrite{
 	background: #ff8f00;
 	width: 80%;
 	font-size: 16px;
@@ -195,15 +195,21 @@ header{
 	margin-left: 20px;
 
 }
-
-.container-about h2{
+.aboutme {
+	padding-bottom: 30px;
+}
+.aboutmePic {
+	border-right:1px solid #ddd; 
+	height:230px;
+}
+.aboutmeWrite h2{
 	color: #fff;
 	font-family: 'gotham_extralightregular';
 	font-size: 22px;
 	margin-top: 0;
 }
 
-.panah{
+.arrow{
 	background: url('../img/arrow.png');
 	width: 27px;
 	height: 31px;
