@@ -52,3 +52,5 @@ $(function() {
     }
   });
 });
+
+new WOW().init();
