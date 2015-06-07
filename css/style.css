@@ -50,8 +50,10 @@ nav {
 	font-size: 15px;
 }
 
-.navbar-default .navbar-nav > li {
-	padding:0;
+.navbar-default .navbar-nav>.active>a {
+	-webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
 
 }
 
@@ -369,6 +371,8 @@ nav {
 	color: #fff;
 	text-decoration: none;
 }
+
+
 
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
