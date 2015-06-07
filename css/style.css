@@ -29,8 +29,9 @@ header{
     font-family: 'gotham_extralightregular';
 
 }
-
-
+nav {
+	padding-bottom: 10px;
+}
 
 .navbar-default{
 	background-color: #fff;
