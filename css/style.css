@@ -33,6 +33,11 @@ nav {
 	padding-bottom: 10px;
 }
 
+.fix-menu{
+	width: 90%;
+	margin: auto;
+}
+
 .navbar-default{
 	background-color: #fff;
 	border:none;
@@ -71,7 +76,7 @@ nav {
 	width: 100%; 
 	position: relative; 
 	color: #fff;
-	padding-top: 14%;
+	padding-top: 20%;
 	padding-bottom: 30%;
 }
 
@@ -343,6 +348,26 @@ nav {
 	font-family: 'gotham_extralightregular';
 	color: #ebebeb;
 
+}
+
+.btn-parallax{
+	background: transparent;
+	color: #fff;
+	padding: 7px 15px;
+	border:2px solid #d2d2d2;
+	font-size: 15px;
+	margin-top: 1.5em;
+}
+
+.btn-parallax:hover{
+	background: transparent;
+	color: #fff;
+	border:2px solid #fff;
+}
+
+.btn-parallax a{
+	color: #fff;
+	text-decoration: none;
 }
 
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
