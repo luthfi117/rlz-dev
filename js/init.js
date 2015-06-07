@@ -53,4 +53,5 @@ $(function() {
   });
 });
 
+// INITIALIZATION FOR ANIMATION
 new WOW().init();
