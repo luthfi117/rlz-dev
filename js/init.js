@@ -21,6 +21,12 @@
 }); // close out script*/
 
 $('.home').parallax({imageSrc: 'img/header.jpg'});
-$('.bottom-words').parallax({imageSrc: 'img/header.jpg'});
+$('.bottom-words').parallax({imageSrc: 'img/parallax2.jpg'});
 /* Create HTML5 element for IE */
 document.createElement("section");
+
+jQuery('.skillbar').each(function(){
+  jQuery(this).find('.skillbar-bar').animate({
+    width:jQuery(this).attr('data-percent')
+  },2000);
+});

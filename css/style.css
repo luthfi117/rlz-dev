@@ -226,18 +226,38 @@ header{
 	margin-left: 20px;
 
 }
+
+.myskill{
+	background: #fff;
+	width: 87%;
+	font-size: 16px;
+	line-height: 30px;
+	color: #fff;
+	font-family: 'gotham_bookregular';
+	padding: 2em;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	margin-left: -10px;
+
+}
+
 .aboutme {
 	padding-bottom: 30px;
 }
 .aboutmePic {
 	border-right:1px solid #ddd; 
-	height:230px;
 }
 .aboutmeWrite h2{
 	color: #fff;
 	font-family: 'gotham_extralightregular';
 	font-size: 22px;
 	margin-top: 0;
+}
+
+.aboutme h3{
+	font-family: 'gotham_extralightregular';
+	text-align: right;
 }
 
 .arrow{
