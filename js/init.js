@@ -35,7 +35,22 @@ jQuery('.skillbar').each(function(){
   },2000);
 });
 
-
+jQuery(function() {
+    var sections = jQuery('section');
+    var navigation_links = jQuery('nav a');
+    sections.waypoint({
+    handler: function(direction) {
+      var active_section;
+      active_section = jQuery(this);
+      if (direction === "up") active_section = active_section.prev();
+      var active_link = jQuery('nav a[href="#' + active_section.attr("id") + '"]');
+      navigation_links.parent().removeClass("active");
+      active_link.parent().addClass("active");
+      active_section.addClass("active-section");
+    },
+    offset: '35%'
+    });
+  });
 //THIS IS FOR SCROLLING THROUGH MENU BAR -- SMOOTH SCROLL EFFECT
 
 $(function() {
@@ -55,3 +70,4 @@ $(function() {
 
 // INITIALIZATION FOR ANIMATION
 new WOW().init();
+
