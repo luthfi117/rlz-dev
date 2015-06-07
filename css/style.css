@@ -24,12 +24,13 @@
 
 }
 
-
 header{
 	background-color: #fff;
     font-family: 'gotham_extralightregular';
 
 }
+
+
 
 .navbar-default{
 	background-color: #fff;
@@ -55,11 +56,6 @@ header{
     -webkit-border-radius:5px;
     -moz-border-radius:5px;
     border-radius:5px;
-}
-
-.fix-menu{
-	width: 90%;
-	margin: auto;
 }
 
 .header-container{
