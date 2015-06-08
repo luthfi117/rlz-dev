@@ -69,5 +69,6 @@ $(function() {
 });
 
 // INITIALIZATION FOR ANIMATION
+$('.wow').attr("data-wow-duration", "1.5s");
 new WOW().init();
 
